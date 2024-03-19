@@ -1,0 +1,63 @@
+
+.site-header{
+    background-color: #000249;
+    
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin:0 auto;
+    
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-menu{
+    display: flex;
+    gap:64px;
+      
+}
+.header-menu a{
+    color: #FAF9F0;
+    font-family: Fira Code;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 52px;
+    margin-bottom: 52px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+
+}
+.main-navigation .portfolio-navigation{
+    width: auto;
+    
+}
+.primary-menu{
+    
+}
+
+/* front-page.php */
+
+.home-section-1{
+    background-color: #000249;
+    width: 1440px;
+    height: 6188px;
+    top: -2888px;
+    left: 136px;
+    /* position: relative; */
+    
+}
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
