@@ -176,3 +176,4 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+ wp_enqueue_syle ('main-style', get_template_directory_uri()."/assets/main-style.css");
