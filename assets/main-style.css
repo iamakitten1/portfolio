@@ -7,6 +7,12 @@
     max-width: 1440px;
     width: 100%;
     margin:0 auto;
+    width: 796px;
+    height: 26px;
+    padding: 52px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
     
 }
 .header-content{
@@ -21,7 +27,7 @@
       
 }
 .header-menu a{
-    color: #FAF9F0;
+    
     font-family: Fira Code;
     font-size: 20px;
     font-weight: 500;
@@ -32,6 +38,10 @@
     margin-bottom: 52px;
     /* margin-left: 100px;
     margin-right: 100px; */
+
+}
+a:visited {
+    color: #FAF9F0;
 
 }
 .main-navigation .portfolio-navigation{
@@ -46,18 +56,56 @@
 
 .home-section-1{
     background-color: #000249;
-    width: 1440px;
+    /* width: 1440px; */
     height: 6188px;
     top: -2888px;
     left: 136px;
     /* position: relative; */
     
 }
+.a:visited :hover{
+    color: rgb(128, 11, 11);
+}
 .hero-content{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4px;
     
+}
+.hello{
+    font-family: Fira Code;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35.28px; 
+    text-align: center;
+    color: #FAF9F0;
+    margin: 0;
+}
+.hero-name{
+    font-family: Montserrat;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 76.07px;
+    text-align: center;
+    color:#FAF9F0;
+    margin: 0;
+}
+.hero-description{
+    font-family: Fira Code;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42.67px;
+    text-align: center;
+    color:#FAF9F0;   
+}
 
+.hero-socials{
+    display: flex;
+    gap: 22.29px;
 }
